@@ -1,0 +1,32 @@
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-list li {
+    margin: 0 15px;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}

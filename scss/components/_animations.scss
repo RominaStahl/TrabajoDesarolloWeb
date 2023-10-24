@@ -1,0 +1,21 @@
+.imagen {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  @media (hover: hover) {
+    .imagen:hover {
+      transform: scale(1,2);
+    }
+  }
+  
+  .imagen_ofertas {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.9);
+    border: solid 1px;
+  }
+  
+  .imagen_ofertas:hover {
+    opacity: 0.5;
+  }
+  
